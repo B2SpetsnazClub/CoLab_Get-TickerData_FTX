@@ -4,8 +4,8 @@ import ccxt
 import json
 
 ftx = ccxt.ftx ({
-'apiKey':'TVpNbHeRr88alQlhLTYQi5-icBEEz6bApKhTQ8LY',
-'secret':'XUIHjtLSYiiyWhOWX-HYOCERDR8DbrnBTNf7bRBQ'})
+'apiKey':'Your apiKey',
+'secret':'Your secret'})
 
 r= json.dumps(ftx.fetch_ticker('BTC/USD'))
 dataPrice = json.loads(r)
